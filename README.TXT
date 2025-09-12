@@ -34,3 +34,18 @@ ANSWERS TO QUESTIONS:
 11- Error: '.class' expected 
 We added int in the colons.
 Correct way to call setValue would be the following: display.setValue(5);
+
+13- ?
+
+14- ?
+
+15- ! false
+    (34 != 33) && ! false
+
+16, 17 [TO DO]
+
+18- A three-digit String is returned from a call to getDisplayValue.
+
+19- Nope, it shows the same results.
+
+20-?  
