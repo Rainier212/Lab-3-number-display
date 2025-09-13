@@ -17,7 +17,7 @@ ANSWERS TO QUESTIONS:
 
 1- Class diagrams are persistent, meaning it saves its data even after being shutdown. However, the object diagram does not.
 
-2- ?
+2- It changes when we compile the class diagram. We can change it by doing modifications in the source code of the class diagram.
 
 3- When we create objects.
 
@@ -35,17 +35,25 @@ ANSWERS TO QUESTIONS:
 We added int in the colons.
 Correct way to call setValue would be the following: display.setValue(5);
 
-13- ?
+13- 0 would be the only valid value that would no longer be accepted
 
-14- ?
+14- I do not understand this question. :(
 
 15- ! false
     (34 != 33) && ! false
 
-16, 17 [TO DO]
+16- (a == b)
+
+17- (a != b)
 
 18- A three-digit String is returned from a call to getDisplayValue.
 
 19- Nope, it shows the same results.
 
-20-?  
+20- The first expression will most likely be 12 + "cat", and the second one, "cat" + 12
+    Result for 9 + 3 + “cat”: "12cat"
+        -> This result really surprised me since "12cat" should've been 9+3 x "cat".
+    Result for “cat” + 3 + 9: "cat39"
+        -> I was way more surprised with this one. Apparently, we have to solve the expression from left to right. So it                would first be "cat" + 3, which results to "cat3". Then it's "cat3" + 9, which gives us "cat39". So we do not get            the sum of 3 and 9, but rather insert/glue them to "cat".
+            
+
